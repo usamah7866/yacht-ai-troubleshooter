@@ -1,0 +1,43 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Build AI model and dashboard",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\pdf_ai_classifier.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Serve dashboard",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\serve_dashboard.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Classify sample text",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\classify_text.py",
+      "args": [
+        "Replace the fuel filter and bleed air from the fuel circuit"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Resolve sample issue",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\resolve_issue.py",
+      "args": [
+        "The yacht air conditioning has low pressure and the fresh water flow alarm appears. What could be the reason and how can I solve it?"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

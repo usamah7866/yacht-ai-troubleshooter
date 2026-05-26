@@ -1,0 +1,60 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Create virtual environment",
+      "type": "shell",
+      "command": "python -m venv .venv",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Install dependencies",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe -m pip install -r requirements.txt",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build AI model and dashboard",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe pdf_ai_classifier.py",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Serve dashboard",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe serve_dashboard.py",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Classify sample text",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe classify_text.py \"Replace the fuel filter and bleed air from the fuel circuit\"",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Resolve sample issue",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe resolve_issue.py \"The yacht air conditioning has low pressure and the fresh water flow alarm appears. What could be the reason and how can I solve it?\"",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

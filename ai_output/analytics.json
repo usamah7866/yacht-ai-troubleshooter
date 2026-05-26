@@ -1,0 +1,206 @@
+{
+  "analytics": {
+    "document_chunks": {
+      "43992 - VS22LOW_eng rev.2 - Use, Maintenance & Installation manual 1.pdf": 105,
+      "44149 - VS 22 LOW IT-EN 1.pdf": 445,
+      "FANCOIL AH SERIES MANUAL REV20210428 1.pdf": 119,
+      "FRIGOMAR ENG - CU50VFD-CU70VFD 20220111 3.pdf": 61
+    },
+    "category_counts": {
+      "installation": 38,
+      "maintenance_service": 102,
+      "technical_specs": 26,
+      "electrical_wiring": 34,
+      "safety": 65,
+      "spare_parts": 23,
+      "operation": 53,
+      "general_information": 242,
+      "fuel_system": 22,
+      "cooling_water": 63,
+      "troubleshooting_repair": 17,
+      "alarms_controls": 26,
+      "warranty_disposal": 19
+    },
+    "pdf_category_counts": {
+      "43992 - VS22LOW_eng rev.2 - Use, Maintenance & Installation manual 1.pdf": {
+        "installation": 10,
+        "maintenance_service": 16,
+        "technical_specs": 7,
+        "electrical_wiring": 16,
+        "safety": 15,
+        "spare_parts": 4,
+        "operation": 11,
+        "general_information": 2,
+        "fuel_system": 6,
+        "cooling_water": 14,
+        "troubleshooting_repair": 2,
+        "alarms_controls": 1,
+        "warranty_disposal": 1
+      },
+      "44149 - VS 22 LOW IT-EN 1.pdf": {
+        "general_information": 227,
+        "electrical_wiring": 9,
+        "fuel_system": 15,
+        "operation": 30,
+        "troubleshooting_repair": 7,
+        "alarms_controls": 2,
+        "spare_parts": 18,
+        "maintenance_service": 59,
+        "safety": 39,
+        "technical_specs": 10,
+        "cooling_water": 18,
+        "installation": 8,
+        "warranty_disposal": 3
+      },
+      "FANCOIL AH SERIES MANUAL REV20210428 1.pdf": {
+        "installation": 17,
+        "safety": 11,
+        "alarms_controls": 16,
+        "warranty_disposal": 5,
+        "cooling_water": 9,
+        "troubleshooting_repair": 7,
+        "technical_specs": 6,
+        "general_information": 10,
+        "maintenance_service": 21,
+        "operation": 10,
+        "electrical_wiring": 5,
+        "fuel_system": 1,
+        "spare_parts": 1
+      },
+      "FRIGOMAR ENG - CU50VFD-CU70VFD 20220111 3.pdf": {
+        "cooling_water": 22,
+        "alarms_controls": 7,
+        "warranty_disposal": 10,
+        "operation": 2,
+        "troubleshooting_repair": 1,
+        "installation": 3,
+        "electrical_wiring": 4,
+        "technical_specs": 3,
+        "general_information": 3,
+        "maintenance_service": 6
+      }
+    },
+    "maintenance_intervals": [
+      "At least once a month",
+      "At least once a year",
+      "EVERY THREE MONTHS",
+      "MONTHLY",
+      "YEARLY",
+      "at least once a month",
+      "at least once a season",
+      "at least once a year",
+      "daily",
+      "every\nthree months",
+      "every 6 months",
+      "monthly",
+      "once a month",
+      "once a year",
+      "weekly"
+    ],
+    "alarm_codes": [
+      "B1",
+      "C1",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "service_term_counts": {
+      "filter": 160,
+      "oil": 123,
+      "anode": 14,
+      "impeller": 17,
+      "belt": 60,
+      "pump": 139,
+      "sensor": 50,
+      "battery": 119,
+      "fuel": 160,
+      "seawater": 61,
+      "glycol": 14,
+      "condensate": 47,
+      "valve": 89
+    },
+    "model_mentions": [
+      "AH1",
+      "AH3",
+      "AH5",
+      "AH7",
+      "AH9",
+      "CU50VFD",
+      "CU70VFD",
+      "VS 22 LOW",
+      "Yanmar 4TNV88"
+    ]
+  },
+  "evaluation": {
+    "accuracy": 0.6164,
+    "test_examples": 146,
+    "confusion": {
+      "installation": {
+        "maintenance_service": 6,
+        "cooling_water": 2,
+        "safety": 1
+      },
+      "technical_specs": {
+        "safety": 1,
+        "maintenance_service": 3
+      },
+      "operation": {
+        "safety": 2,
+        "maintenance_service": 5,
+        "cooling_water": 1,
+        "operation": 4
+      },
+      "safety": {
+        "safety": 11,
+        "electrical_wiring": 1,
+        "operation": 1,
+        "maintenance_service": 2
+      },
+      "electrical_wiring": {
+        "safety": 2,
+        "electrical_wiring": 2,
+        "maintenance_service": 4
+      },
+      "fuel_system": {
+        "maintenance_service": 4
+      },
+      "cooling_water": {
+        "cooling_water": 8,
+        "maintenance_service": 5
+      },
+      "maintenance_service": {
+        "maintenance_service": 17,
+        "warranty_disposal": 1
+      },
+      "general_information": {
+        "general_information": 45,
+        "maintenance_service": 3,
+        "cooling_water": 1
+      },
+      "troubleshooting_repair": {
+        "general_information": 1,
+        "installation": 1,
+        "maintenance_service": 1
+      },
+      "alarms_controls": {
+        "maintenance_service": 1,
+        "alarms_controls": 2,
+        "operation": 1,
+        "cooling_water": 2
+      },
+      "spare_parts": {
+        "maintenance_service": 3
+      },
+      "warranty_disposal": {
+        "warranty_disposal": 1,
+        "maintenance_service": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.vercel/
+.env
+.env.local
+ai_output/manual_classifier_model.json
