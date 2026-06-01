@@ -3,7 +3,7 @@
 This project is prepared for deployment as:
 
 - static dashboard: `public/index.html`
-- Python serverless endpoint: `api/resolve.py`
+- Python serverless endpoint: `api/index.py`, backed by `api/resolve.py`
 - manual retrieval data: `ai_output/manual_assistant_index.json`
 
 ## Local Rebuild
@@ -68,6 +68,15 @@ The resolver API is:
 ```text
 /api/resolve
 ```
+
+The project includes both:
+
+```text
+api/index.py
+api/resolve.py
+```
+
+This is intentional. `api/index.py` follows Vercel's default Python function convention, and `vercel.json` rewrites `/api/resolve` to it.
 
 ## Runtime Notes
 

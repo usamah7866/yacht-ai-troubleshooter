@@ -6,3 +6,6 @@ ai_output/training_dataset.csv
 ai_output/manual_classifier_model.json
 .git
 .vscode
+serve_dashboard.py
+build_interviewer_report.py
+Yacht_AI_Troubleshooting_Model_Report.pdf
