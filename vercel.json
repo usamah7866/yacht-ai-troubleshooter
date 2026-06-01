@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/**/*.py": {
-      "excludeFiles": "{.venv/**,__pycache__/**,**/__pycache__/**,*.pdf,ai_output/training_dataset.csv,ai_output/manual_classifier_model.json}"
-    }
-  },
   "rewrites": [
     {
       "source": "/api/resolve",
